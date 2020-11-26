@@ -15,5 +15,5 @@ const nagyjozsi={
     lastname: 'Nagy'
 }
 const objecteredeti=[johndoe, janedoe, nagyjozsi ]
-const egybe= objecteredeti.map((item, index)=> ({item}));
+const egybe= objecteredeti.map((item, index)=> ({...item}));
  console.log(egybe);
